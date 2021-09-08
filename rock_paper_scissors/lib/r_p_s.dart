@@ -18,6 +18,7 @@ enum Move {rock, paper, scissors}
       }else if(input  == 'p'){
         inputPlayer = Move.paper;
       }else{
+
         inputPlayer = Move.scissors;
       }
       final random = rng.nextInt(3);
